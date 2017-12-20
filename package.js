@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'ethereum:accounts',
-  summary: 'Provides and updates the ethereum accounts in the Accounts collection',
+  name: 'haloplatform:accounts',
+  summary: 'Provides and updates the halo platform accounts in the Accounts collection',
   version: '0.4.0',
-  git: 'http://github.com/ethereum/meteor-package-accounts'
+  git: 'http://github.com/haloplatform/meteor-package-accounts'
 });
 
 Package.onUse(function(api) {
@@ -13,14 +13,14 @@ Package.onUse(function(api) {
   api.use('frozeman:persistent-minimongo@0.1.8', 'client');
   api.use('ethereum:web3@0.15.1', ['client', 'server']);
 
-  api.export(['EthAccounts'], ['client', 'server']);
+  api.export(['HaloAccounts'], ['client', 'server']);
 
   api.addFiles('accounts.js', ['client', 'server']);
 });
 
 // Package.onTest(function(api) {
 //   api.use('tinytest');
-//   api.use('ethereum:accounts');
+//   api.use('haloplatform:accounts');
 //   api.addFiles('accounts-tests.js');
 // });
 
