@@ -21,7 +21,7 @@ ejson@1.1.0
 ethereum:web3@0.15.3
 frozeman:persistent-minimongo@0.1.8
 geojson-utils@1.0.10
-haloplatform:accounts@0.4.1
+haloplatform:accounts@0.4.2
 http@1.4.0
 id-map@1.1.0
 jquery@1.11.10
