@@ -1,7 +1,7 @@
 Package.describe({
   name: 'haloplatform:accounts',
   summary: 'Provides and updates the halo platform accounts in the Accounts collection',
-  version: '0.4.0',
+  version: '0.4.1',
   git: 'http://github.com/haloplatform/meteor-package-accounts'
 });
 

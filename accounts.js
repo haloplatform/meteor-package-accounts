@@ -134,7 +134,7 @@ HaloAccounts._addAccounts = function(){
                                 type: 'account',
                                 address: address,
                                 balance: balance,
-                                name: (address === coinbase) ? 'Main account (halobase)' : 'Account '+ accountsCount
+                                name: (address === coinbase) ? 'Halo Prime (coinbase)' : 'Account '+ accountsCount
                             };
 
                             if(doc) {
